@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+id hint
+id msg
+id root
+id title
+id web
+id welcome
+layout activity_main
+mipmap ic_launcher
+string app_name
+style Theme.Alrheeb

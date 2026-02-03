@@ -1,6 +1,0 @@
-#!/usr/bin/env sh
-
-DIR="$(cd "$(dirname "$0")" && pwd)"
-GRADLE_HOME="$DIR/gradle/wrapper/gradle-8.4"
-
-exec java -classpath "$GRADLE_HOME/lib/*" org.gradle.launcher.GradleMain "$@"
